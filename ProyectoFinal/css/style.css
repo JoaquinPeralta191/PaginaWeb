@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    background-color: #FF577F;
+    box-sizing: border-box;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    display: flex;
+    border-style: groove;
+    border-color: black;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    background: #FFD384;
+    border-right: black;
+    border-style: groove;
+}
+
+.navegacion{
+    text-align: end;
+    padding: 2rem;
+    position:sticky;
+    margin-top: 0.5rem;
+}
+
+.cabecera nav ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background: #FFD384;
+    border-style: groove;
+    border-radius: 3rem;
+}
+
+#fondo {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: relative;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+}
+
+.titulo{
+    color: white;
+    bottom: -39.2rem;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+    background: grey;
+    opacity: 0.9;
+    
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.3;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+p{
+    padding: 0.5rem;
+}
+
+.seccionTarjetas{
+    display: flex;
+}
+
+h1{
+    margin-left: 0.5rem;
+    font-size: 4.4rem;
+}
+.tarjeta{
+    background: #FF884B;
+    border-radius: 0.9rem;
+    border-style: groove;
+    border-color: black;
+    margin-left: 0.5rem;
+    width: 21.7rem;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: black;
+}
+
+.tarjeta h2{
+    margin-left: 0.5rem;
+}
+
+.img_1{
+    width: 100% ;
+    height: 12rem;
+    border-radius: 0.9rem;
+}
+
+.img_2{
+    width: 100% ;
+    height: 12rem;
+    border-radius: 0.9rem;
+}
+
+.img_3{
+    width: 100% ;
+    height: 12rem;
+    border-radius: 0.9rem;
+}
+
+.img_4{
+    width: 100% ;
+    height: 12rem;
+    border-radius: 0.9rem;
+}
+
+.pieDePagina{
+    background: #FF577F;
+    border-style: groove;
+    border-color: black;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+
+.pieDePagina a i{
+    padding-right: 3rem;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+/* CSS de Conoce a los Jojos's*/
+
+.lineaDelTiempo{
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+.titulo_2{
+    top: 3.75rem;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+    text-align: center;
+}
+
+.subtitulo{
+    margin-left: 0.5rem;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.bloque_1{
+    display: flex;
+    background: white;
+    border-top: black;
+    border-bottom: black;
+    border-style: groove;
+    padding: 2rem;
+    margin: 0;
+    text-align: justify;
+}
+
+.bloque_2{
+    display: flex;
+    background: white;
+    border-top: black;
+    border-bottom: black;
+    border-style: groove;
+    padding: 2rem;
+    margin: 0;
+    margin-bottom: -2rem;
+}
+.bloque_2 p{
+    order: -1;
+}
+.bloque_2 img{
+    margin-bottom: 2rem;
+}
+/*CSS de Amistades*/
+
+.foto{
+    width: 100%;
+}
+
+.galeria{
+    background: #FF884B;
+    border-style: groove;
+    border-color: black;
+    margin-left: 0.5rem;
+    width: 21.7rem;
+    text-align: center;
+}
+
+h2{
+    padding-left: 00.5rem;
+    margin: 1rem;
+}
+
+.titulo_3{
+    font-style: italic;
+    margin: 2rem;
+    text-align: center;
+}
+
+.bloque_3{
+    display: flex;
+    padding: 2rem;
+    margin: 0;
+    text-align: justify;
+}
+
+.bloque_3 img{
+    padding-right: 0.5rem;
+}
+/*CSS de Amenazas*/
+
+.fondoAmenazas{
+    border-top: black;
+    border-style: groove;
+    border-bottom: white;
+    margin-top: 1rem;
+}
+
+/*CSS de Contacto*/
+
+.formulario{
+    background: #FF884B;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+
+}
+
+.contenedor{
+    border-style: groove;
+    border-color: black;
+}
+
+.galeria_2{
+    background: #FF884B;
+    border-style: groove;
+    border-color: black;
+    margin-left: 0.5rem;
+    width: 24rem;
+    text-align: center;
+    margin-right: 5.4rem;
+}
+
+.galeria_2 img{
+    width: 100%;
+}
+
+.miFondo{
+    background: wheat;
+    height: 89.8%;
+}
+
+.subtitulo_2{
+    text-align: center;
+}
+
+.imagen{
+    border-style: groove;
+    border-color: black;
+}
+.ubicacion{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
