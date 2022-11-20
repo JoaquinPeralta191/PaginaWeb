@@ -44,30 +44,29 @@
         <main >
             <h1 class="titulo_2">Se un verdadero Joestar...</h1>
             <p>Te invitamos a unirte al linaje de los Joestar, para formar parte de esta musculosa comunidad en la cual podras formar parte de nuestro maravilloso server de Discord en el cual participaras de interesantes charlas con ¡personas! ademas de contar con un activo canal de memes ;) y muchos otros beneficios. Anotá tus datos acá para poder mandarte la invitacion.</p>
-            <form class="contenedor">
-                <div class="formulario">
-                    <p>Nombre</p>
-                    <input type="text" placeholder="Ingrese su Nombre*" required>
-                </div>
-                <div class="formulario">
-                    <p>Apellido</p>
-                    <input type="text" placeholder="Ingrese su Apellido*" required>
-                </div>
-                <div class="formulario">
-                    <p>Email</p>
-                    <input type="email" placeholder="Ingrese su Email*" required>
-                </div>
-                <div class="formulario">
-                    <input type="checkbox" name="Notificaciones">
-                    <label for="">Suscribete para no perderte las novedades</label>
-                </div>
-                <div class="formulario">
-                    <input type="submit" value="Enviar">
-                </div>
+          <section class="container-fluid cont-form">
+            <form class="formulario">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Nombre y Apellido</label>
+                <input type="name" class="form-control" required id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Direccion Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos tu informacion con terceros.</div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Deseo ser notificado cuando haya novedades.</label>
+              </div>
+              <div class="boton">
+              <button type="submit" class="btn btn-primary">Subir</button>
+              </div>
             </form>
+          </section>
             <div><h2 class="subtitulo subtitulo_2" data-aos="zoom-out">Miembros de la familia Joestar</h2></div>
-            <section class="row justify-content-around img-contacto" data-aos="zoom-out-down">
-              <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria" src="./../assets/images/Juan.jpeg" alt=""><p class="texto-galeria">Juan Cruz Ceballos</p></div>
+            <section class="row justify-content-center img-contacto" data-aos="zoom-out-down">
+              <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria" src="./../assets/images/Juan.jpeg" alt=""><p class="texto-galeria">Juan Cruz Ceballos (La inspiración)</p></div>
               <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria img-yo" src="./../assets/images/Yo.png" alt="" ><p class="texto-galeria">Joaquin Peralta (El creador)</p></div>
               <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria" src="./../assets/images/Carne.jpeg" alt=""><p class="texto-galeria">Santino Cargneluti (El aprendiz)</p></div>
             </div>

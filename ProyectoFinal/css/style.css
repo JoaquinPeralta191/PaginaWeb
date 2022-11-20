@@ -170,3 +170,91 @@ i{
     margin-right: none;
     --bs-gutter-x: none;
 }
+
+.formulario{
+    margin-left: 0.5rem;
+    background: #FF577F;
+    border-style: groove;
+    border-color: black;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 50%;
+
+}
+
+.cont-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.form-text{
+    color: rgb(61, 61, 61);
+    font-size: 0.75rem;
+}
+
+.form-check-input:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  }
+  
+.form-check-input:checked {
+    background-color:#FFD384;
+    border-color:#FFD384;
+}
+  
+.btn-primary {
+    color: black;
+    background-color:#FFD384;
+    border-color:#FFD384;
+    width: 100%;
+    border-style: groove;
+    border-color: black;
+}
+  
+.btn-primary:hover {
+    color: black;
+    background-color:#f8c360;
+    border-color:#f8c360;
+    border-style: groove;
+    border-color: black;
+}
+  
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: black;
+    background-color:#f8c360;
+    border-color:#f8c360;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.form-check-input:focus {
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  }
+
+  .form-check-input:checked {
+    background-color: #f8c360;
+    border-color: #f8c360;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  }
