@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="./../css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./../css/bootstrap.min.css">
         <link rel="stylesheet" href="./../css/style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="icon" href="./../assets/images/Estrella.png">
         <script src="https://kit.fontawesome.com/2c95d10380.js" crossorigin="anonymous"></script>
         <title>Contacto</title>
@@ -42,7 +42,7 @@
           </nav>
         </header>
         <main >
-            <h1 class="titulo_3">Se un verdadero Joestar...</h1>
+            <h1 class="titulo_2">Se un verdadero Joestar...</h1>
             <p>Te invitamos a unirte al linaje de los Joestar, para formar parte de esta musculosa comunidad en la cual podras formar parte de nuestro maravilloso server de Discord en el cual participaras de interesantes charlas con ¡personas! ademas de contar con un activo canal de memes ;) y muchos otros beneficios. Anotá tus datos acá para poder mandarte la invitacion.</p>
             <form class="contenedor">
                 <div class="formulario">
@@ -65,28 +65,37 @@
                     <input type="submit" value="Enviar">
                 </div>
             </form>
-            <h2 class="subtitulo_2">Miembros de la familia Joestar</h2>
-            <section class="seccionTarjetas">
-                <div class="galeria_2">
-                    <img class="miFondo"src="./../assets/images/Yo.png" alt="Yo">
-                    <p>Joaquin Peralta (El fundador)</p>
-                </div>
-                <div class="galeria_2">
-                    <img src="./../assets/images/Juan.jpeg" alt="Juan">
-                    <p>Juan Cruz Ceballos (La inspiracion)</p>
-                </div>
-                <div class="galeria_2">
-                    <img src="./../assets/images/Carne.jpeg" alt="Santino">
-                    <p>Santino Cargneluti (El aprendiz)</p>
-                </div>
+            <div><h2 class="subtitulo subtitulo_2" data-aos="zoom-out">Miembros de la familia Joestar</h2></div>
+            <section class="row justify-content-around img-contacto" data-aos="zoom-out-down">
+              <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria" src="./../assets/images/Juan.jpeg" alt=""><p class="texto-galeria">Juan Cruz Ceballos</p></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria img-yo" src="./../assets/images/Yo.png" alt="" ><p class="texto-galeria">Joaquin Peralta (El creador)</p></div>
+              <div class="col-lg-3 col-md-6 col-sm-12 galeria galeria-fondo"><img class="img-galeria" src="./../assets/images/Carne.jpeg" alt=""><p class="texto-galeria">Santino Cargneluti (El aprendiz)</p></div>
+            </div>
             </section>
         </main>
-        <footer class="pieDePagina">
-            <a href="https://es-la.facebook.com/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.whatsapp.com/?lang=es"target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <p> 2022 - ®Todos los derechos reservados - Hecho por El_Peras</p>
+        <footer class="pie-de-pagina container-fluid">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+          <p class="texto-pieDePagina justify-content-center">2022 - ®Todos los derechos reservados - Hecho por El_Peras</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init({
+	    offset: 300,
+	    delay: 100,
+	    duration: 400,
+	    easing: 'easy'
+  });
+        </script>
     </body>
 </html>
